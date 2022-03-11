@@ -110,6 +110,7 @@ outputs:
  {
    module_type: RootOutput
    fileName:    "optical_icarus.root" #default file name, can override from command line with -o or --output
+   saveMemoryObjectThreshold: 0
  }
 }
 

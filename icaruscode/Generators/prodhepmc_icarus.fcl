@@ -56,5 +56,6 @@ outputs:
    fileName:    "MC_Truth_ldm.root"
    dataTier:    "generated"
    compressionLevel: 1
+   saveMemoryObjectThreshold: 0
  }
 }

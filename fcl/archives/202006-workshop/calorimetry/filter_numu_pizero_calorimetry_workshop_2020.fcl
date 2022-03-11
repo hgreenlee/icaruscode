@@ -98,6 +98,7 @@ outputs:
    compressionLevel: 1
    fastCloning: false
    SelectEvents: [filter]
+   saveMemoryObjectThreshold: 0
  }
 }
 

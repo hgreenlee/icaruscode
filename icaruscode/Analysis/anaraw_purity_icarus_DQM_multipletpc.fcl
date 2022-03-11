@@ -62,6 +62,7 @@ outputs:
    dataTier:    "reco-simulated"
    compressionLevel: 1
    fastCloning: false
+   saveMemoryObjectThreshold: 0
  }
 }
 

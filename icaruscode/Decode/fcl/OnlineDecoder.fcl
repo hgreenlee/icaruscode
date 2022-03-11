@@ -191,6 +191,7 @@ outputs:
     fileName:    "%ifb_%tc-decoded.root"
     dataTier:    "raw"
     compressionLevel: 1
+    saveMemoryObjectThreshold: 0
     SelectEvents: [pscale_event]
   }
 }

@@ -57,6 +57,7 @@ outputs: {
     module_type: "RootOutput"
     dataTier: "decoded"
     fileName: "%ifb_%tc-%p.root"
+    saveMemoryObjectThreshold: 0
   }
 }
 

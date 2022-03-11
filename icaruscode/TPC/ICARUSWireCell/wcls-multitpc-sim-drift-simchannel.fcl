@@ -87,6 +87,6 @@ outputs: {
          // "drop *_wcNoiseFilter_*_*",
          // "drop *_daq_*_*"
       ]
-
+      saveMemoryObjectThreshold: 0
    }
 }

@@ -122,6 +122,7 @@ outputs:
    dataTier:    "simulated"
    compressionLevel: 1
    fastCloning: false
+   saveMemoryObjectThreshold: 0
    SelectEvents: [simulate]
  }
 }

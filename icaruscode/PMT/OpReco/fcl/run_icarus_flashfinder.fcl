@@ -115,6 +115,7 @@ outputs:
             "drop *_*_*_McRecoAprStage1",
             "drop *_*_*_DetSim"]
    }
+   saveMemoryObjectThreshold: 0
 }
 
 ### Here we include the file giving us run/data dependent overrides

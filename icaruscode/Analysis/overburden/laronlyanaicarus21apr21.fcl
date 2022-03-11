@@ -53,6 +53,7 @@ outputs:
    dataTier:    "analysis"
    compressionLevel: 1
    fastCloning: false
+   saveMemoryObjectThreshold: 0
  }
 }
 

@@ -58,7 +58,7 @@ outputs:{
       module_type: RootOutput
       fileName: "%ifb_wcdecon.root"
       #SelectEvents: [p1]
-      saveMemoryObjectThreshold: 10485760 
+      saveMemoryObjectThreshold: 0
 
       outputCommands :   [
          "keep *_*_*_*"
@@ -69,6 +69,5 @@ outputs:{
          // "drop *_wcNoiseFilter_*_*",
          // "drop *_daq_*_*"
       ]
-
    }
 }

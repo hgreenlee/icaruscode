@@ -64,5 +64,6 @@ outputs:
    fileName:    "test.root"
    dataTier:    "generated"
    compressionLevel: 1
+   saveMemoryObjectThreshold: 0
  }
 }

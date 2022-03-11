@@ -91,5 +91,6 @@ outputs:
    fileName:    "prova_light.root"
    dataTier:    "detector-simulated"
    compressionLevel: 1
+   saveMemoryObjectThreshold: 0
  }
 }

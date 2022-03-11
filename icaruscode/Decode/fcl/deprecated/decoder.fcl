@@ -90,6 +90,7 @@ outputs: {
   rootout: {
     module_type: "RootOutput"
     fileName: "%ifb_%tc-%p.root"
+    saveMemoryObjectThreshold: 0
   }
 }
 
