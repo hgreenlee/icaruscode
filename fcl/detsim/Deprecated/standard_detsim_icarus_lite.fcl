@@ -1,0 +1,21 @@
+#-------------------------------------------------------------------
+#
+# Name: standard_detsim_icarus_lite.fcl
+#
+# Purpose: Lite version of standard_detsim_icarus.fcl
+#
+# Created: 15-Mar-2022  H. Greenlee
+#
+# Automatically generated.
+#
+#-------------------------------------------------------------------
+
+#include "standard_detsim_icarus.fcl"
+
+# Drop truth data products.
+
+outputs.rootoutput.saveMemoryObjectThreshold: 0
+outputs.rootoutput.outputCommands: [ "keep *_*_*_*",
+                                     "drop sim::SimChannels_*_*_*",
+                                     "drop sim::SimPhotonss_*_*_*",
+                                     "drop sim::SimPhotonsLites_*_*_*" ]

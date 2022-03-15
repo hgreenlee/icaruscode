@@ -1,0 +1,21 @@
+#-------------------------------------------------------------------
+#
+# Name: triggersim_westmodule_icarus_data_lite.fcl
+#
+# Purpose: Lite version of triggersim_westmodule_icarus_data.fcl
+#
+# Created: 15-Mar-2022  H. Greenlee
+#
+# Automatically generated.
+#
+#-------------------------------------------------------------------
+
+#include "triggersim_westmodule_icarus_data.fcl"
+
+# Drop truth data products.
+
+outputs.rootoutput.saveMemoryObjectThreshold: 0
+outputs.rootoutput.outputCommands: [ "keep *_*_*_*",
+                                     "drop sim::SimChannels_*_*_*",
+                                     "drop sim::SimPhotonss_*_*_*",
+                                     "drop sim::SimPhotonsLites_*_*_*" ]
