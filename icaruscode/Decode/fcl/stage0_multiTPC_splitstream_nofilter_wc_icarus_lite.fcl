@@ -4,7 +4,7 @@
 #
 # Purpose: Lite version of stage0_multiTPC_splitstream_nofilter_wc_icarus.fcl
 #
-# Created: 15-Mar-2022  H. Greenlee
+# Created: 17-Mar-2022  H. Greenlee
 #
 # Automatically generated.
 #
@@ -12,30 +12,39 @@
 
 #include "stage0_multiTPC_splitstream_nofilter_wc_icarus.fcl"
 
+# Disable mcophit module.
+
+physics.producers.mcophit.SimPhotonsProducer: ""
+
 # Drop truth data products.
 
 outputs.outBNB.saveMemoryObjectThreshold: 0
 outputs.outBNB.outputCommands: [ "keep *_*_*_*",
                                  "drop raw::RawDigits_*_*_*",
                                  "drop raw::OpDetWaveforms_*_*_*",
-                                 "drop recob::Wires_*_*_*" ]
+                                 "drop recob::Wires_*_*_*",
+                                 "drop simb::MCParticles_*_*_*" ]
 outputs.outNUMI.saveMemoryObjectThreshold: 0
 outputs.outNUMI.outputCommands: [ "keep *_*_*_*",
                                   "drop raw::RawDigits_*_*_*",
                                   "drop raw::OpDetWaveforms_*_*_*",
-                                  "drop recob::Wires_*_*_*" ]
+                                  "drop recob::Wires_*_*_*",
+                                  "drop simb::MCParticles_*_*_*" ]
 outputs.outOffbeamBNB.saveMemoryObjectThreshold: 0
 outputs.outOffbeamBNB.outputCommands: [ "keep *_*_*_*",
                                         "drop raw::RawDigits_*_*_*",
                                         "drop raw::OpDetWaveforms_*_*_*",
-                                        "drop recob::Wires_*_*_*" ]
+                                        "drop recob::Wires_*_*_*",
+                                        "drop simb::MCParticles_*_*_*" ]
 outputs.outOffbeamNUMI.saveMemoryObjectThreshold: 0
 outputs.outOffbeamNUMI.outputCommands: [ "keep *_*_*_*",
                                          "drop raw::RawDigits_*_*_*",
                                          "drop raw::OpDetWaveforms_*_*_*",
-                                         "drop recob::Wires_*_*_*" ]
+                                         "drop recob::Wires_*_*_*",
+                                         "drop simb::MCParticles_*_*_*" ]
 outputs.outUnknown.saveMemoryObjectThreshold: 0
 outputs.outUnknown.outputCommands: [ "keep *_*_*_*",
                                      "drop raw::RawDigits_*_*_*",
                                      "drop raw::OpDetWaveforms_*_*_*",
-                                     "drop recob::Wires_*_*_*" ]
+                                     "drop recob::Wires_*_*_*",
+                                     "drop simb::MCParticles_*_*_*" ]
