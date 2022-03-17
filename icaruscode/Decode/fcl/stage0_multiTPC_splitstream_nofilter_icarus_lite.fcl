@@ -23,28 +23,33 @@ outputs.outBNB.outputCommands: [ "keep *_*_*_*",
                                  "drop raw::RawDigits_*_*_*",
                                  "drop raw::OpDetWaveforms_*_*_*",
                                  "drop recob::Wires_*_*_*",
-                                 "drop simb::MCParticles_*_*_*" ]
+                                 "drop sim::SimPhotonss_*_*_*",
+                                 "drop sim::SimPhotonsLites_*_*_*" ]
 outputs.outNUMI.saveMemoryObjectThreshold: 0
 outputs.outNUMI.outputCommands: [ "keep *_*_*_*",
                                   "drop raw::RawDigits_*_*_*",
                                   "drop raw::OpDetWaveforms_*_*_*",
                                   "drop recob::Wires_*_*_*",
-                                  "drop simb::MCParticles_*_*_*" ]
+                                  "drop sim::SimPhotonss_*_*_*",
+                                  "drop sim::SimPhotonsLites_*_*_*" ]
 outputs.outOffbeamBNB.saveMemoryObjectThreshold: 0
 outputs.outOffbeamBNB.outputCommands: [ "keep *_*_*_*",
                                         "drop raw::RawDigits_*_*_*",
                                         "drop raw::OpDetWaveforms_*_*_*",
                                         "drop recob::Wires_*_*_*",
-                                        "drop simb::MCParticles_*_*_*" ]
+                                        "drop sim::SimPhotonss_*_*_*",
+                                        "drop sim::SimPhotonsLites_*_*_*" ]
 outputs.outOffbeamNUMI.saveMemoryObjectThreshold: 0
 outputs.outOffbeamNUMI.outputCommands: [ "keep *_*_*_*",
                                          "drop raw::RawDigits_*_*_*",
                                          "drop raw::OpDetWaveforms_*_*_*",
                                          "drop recob::Wires_*_*_*",
-                                         "drop simb::MCParticles_*_*_*" ]
+                                         "drop sim::SimPhotonss_*_*_*",
+                                         "drop sim::SimPhotonsLites_*_*_*" ]
 outputs.outUnknown.saveMemoryObjectThreshold: 0
 outputs.outUnknown.outputCommands: [ "keep *_*_*_*",
                                      "drop raw::RawDigits_*_*_*",
                                      "drop raw::OpDetWaveforms_*_*_*",
                                      "drop recob::Wires_*_*_*",
-                                     "drop simb::MCParticles_*_*_*" ]
+                                     "drop sim::SimPhotonss_*_*_*",
+                                     "drop sim::SimPhotonsLites_*_*_*" ]
