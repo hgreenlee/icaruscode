@@ -4,7 +4,7 @@
 #
 # Purpose: Lite version of triggersim_icarus_data.fcl
 #
-# Created: 15-Mar-2022  H. Greenlee
+# Created: 17-Mar-2022  H. Greenlee
 #
 # Automatically generated.
 #
@@ -16,6 +16,4 @@
 
 outputs.rootoutput.saveMemoryObjectThreshold: 0
 outputs.rootoutput.outputCommands: [ "keep *_*_*_*",
-                                     "drop sim::SimChannels_*_*_*",
-                                     "drop sim::SimPhotonss_*_*_*",
-                                     "drop sim::SimPhotonsLites_*_*_*" ]
+                                     "drop sim::SimChannels_*_*_*" ]
