@@ -1,6 +1,6 @@
 #=============================================================================
 #
-# Name: drop_after_g4.fcl
+# Name: detsim_drops.fcl
 #
 # Purpose: Sequence of RootOutput drop commands to drop data products after detsim.
 #
