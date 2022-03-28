@@ -3,7 +3,7 @@
 # Name: reco_drops.fcl
 #
 # Purpose: Sequence of RootOutput drop commands to drop data products after
-#          stage - reconstruction.
+#          stage 1 reconstruction.
 #
 # Created: 28-Mar-2022  H. Greenlee
 #

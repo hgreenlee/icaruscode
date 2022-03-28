@@ -13,6 +13,9 @@
 #     detsim stage, but truth in OpDetBacktrackerRecords is in general not used
 #     in standard workflows.
 #
+# 2.  MCParticles are not used in standard icarus workflows after g4.  Kept by
+#     choice.
+#
 #=============================================================================
 
 BEGIN_PROLOG
