@@ -6,11 +6,19 @@
 #
 # Created: 28-Mar-2022  H. Greenlee
 #
+# Notes:
+#
+# 1.  OpDetBacktrackRecords are genearted in combination with SimPhtonsLites and
+#     contain truth.  SimPhotons or SimPhotonsLite will always be required at 
+#     detsim stage, but truth in OpDetBacktrackerRecords is in general not used
+#     in standard workflows.
+#
 #=============================================================================
 
 BEGIN_PROLOG
 
-g4_drops: [ "drop sim::SimEnergyDeposits_*_*_*" ]
+g4_drops: [ "drop sim::SimEnergyDeposits_*_*_*",
+            "drop sim::OpDetBacktrackerRecords_*_*_*" ]
 
 END_PROLOG
 
