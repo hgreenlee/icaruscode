@@ -1,8 +1,8 @@
 #-------------------------------------------------------------------
 #
-# Name: standard_g4_icarus_lite.fcl
+# Name: nooverburden_detsim_icarus_lite.fcl
 #
-# Purpose: Lite version of standard_g4_icarus.fcl
+# Purpose: Lite version of nooverburden_detsim_icarus.fcl
 #
 # Created: 28-Mar-2022  H. Greenlee
 #
@@ -10,10 +10,10 @@
 #
 #-------------------------------------------------------------------
 
-#include "g4_drops.fcl"
-#include "standard_g4_icarus.fcl"
+#include "detsim_drops.fcl"
+#include "nooverburden_detsim_icarus.fcl"
 
 # Drop truth data products.
 
 outputs.rootoutput.outputCommands: [ "keep *_*_*_*",
-                                     @sequence::g4_drops ]
+                                     @sequence::detsim_drops ]
